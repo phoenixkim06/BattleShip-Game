@@ -1,12 +1,12 @@
-#Battleship Game
+# Battleship Game
 Battleship is a single-player console-based game where the user tries to sink all 3 battleships before they run out of tries.
-###The Board:
+### The Board:
 
 The playing board is a 10x10 grid with 3 ships of random sizes (1, 2, 3, or 4 pieces) all spaced out randomly. Each ship will be hidden but will either be indicated with a 1, 2, or 3 value.
 
 When the user hits a ship, the corresponding piece on the board will update with an X. If it is a miss, the piece will update to an A.
 
-##To play:
+## To play:
 
 1. The user begins by inputting either a difficulty
     - 1 = Easy (40 guesses)
@@ -24,7 +24,7 @@ When the user hits a ship, the corresponding piece on the board will update with
     - guesses remaining
 
 ***These steps will repeat until the user either sinks all ships (win) or runs out of guesses (lose)***
-###Sample Turns:
+### Sample Turns:
 ```sh
 Welcome to Battleship. The goal of the game is to sink all the ships before your guesses run out.
 Difficulties: 
@@ -78,6 +78,6 @@ Guesses remaining: 38
 Enter in a row value: 
 ```
 
-###Todos:
+### Todos:
 - [ ] Add a feature to create a consistent balance of ship sizes
 - [ ] Prevent the Ships sunk status message and guesses remaining message from appearing after a win
